@@ -42,8 +42,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "yarn --cwd client run dev",
-    "dev": "concurrently \"yarn run client\" \"yarn run server\"",
-    "heroku-postbuild": "YARN_PRODUCTION=true"
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
